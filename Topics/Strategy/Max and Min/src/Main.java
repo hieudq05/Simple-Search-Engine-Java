@@ -1,18 +1,18 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Finder {
-    private final FindingStrategy strategy;
+
+    private FindingStrategy strategy;
 
     public Finder(FindingStrategy strategy) {
-        this.strategy = strategy;
+        // write your code here
     }
 
     /**
      * It performs the search algorithm according to the given strategy
      */
     public int find(int[] numbers) {
-        return strategy.getResult(numbers);
+        // write your code here
     }
 }
 
@@ -27,17 +27,15 @@ interface FindingStrategy {
 
 class MaxFindingStrategy implements FindingStrategy {
 
-    @Override
     public int getResult(int[] numbers) {
-        return numbers.length == 0 ? Integer.MIN_VALUE : Arrays.stream(numbers).max().getAsInt();
+        // write your code here
     }
 }
 
 class MinFindingStrategy implements FindingStrategy {
 
-    @Override
     public int getResult(int[] numbers) {
-        return numbers.length == 0 ? Integer.MAX_VALUE : Arrays.stream(numbers).min().getAsInt();
+        // write your code here
     }
 }
 
