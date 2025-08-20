@@ -1,0 +1,36 @@
+type: edu
+files:
+  - name: src/search/Main.java
+    visible: true
+    learner_created: false
+  - name: test/SearchEngineTests.java
+    visible: false
+    learner_created: false
+  - name: test/SimpleSearchEngineTest.java
+    visible: false
+    learner_created: false
+  - name: src/search/names.txt
+    visible: true
+    learner_created: true
+  - name: src/search/Finder.java
+    visible: true
+    learner_created: true
+  - name: src/search/FindingStrategy.java
+    visible: true
+    learner_created: true
+  - name: src/search/impl/FindAllStrategy.java
+    visible: true
+    learner_created: true
+  - name: src/search/impl/FindAnyStrategy.java
+    visible: true
+    learner_created: true
+  - name: src/search/impl/FindNoneStrategy.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/projects/66/stages/359/implement#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Tue, 19 Aug 2025 11:55:07 UTC"
+record: -1
